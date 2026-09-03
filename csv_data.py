@@ -6,7 +6,7 @@ from chromadb.utils import embedding_functions
 # 1. DATA PREP: Your Pandas Superpower 🐼
 # ==========================================
 print("📂 Loading MIT AI Articles dataset...")
-data = pd.read_csv('/home/gowthamireddy/chat_with_your_data/csv_data.py')
+data = pd.read_csv('MIT_AI_ARTICLES.csv')
 df = pd.DataFrame(data)
 print(f"✅ Dataset loaded successfully! Shape: {df.shape}\n")
 

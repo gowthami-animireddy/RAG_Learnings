@@ -1,0 +1,59 @@
+# ==========================================
+# 🔒 SECRETS & ENVIRONMENT VARIABLES
+# ==========================================
+# NEVER push API keys to GitHub
+.streamlit/secrets.toml
+.env
+.env.local
+
+# ==========================================
+# 🐍 PYTHON CACHE & COMPILED FILES
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# 🌐 VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+ENV/
+env/
+.venv
+
+# ==========================================
+# 💻 IDE & OS FILES
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 🗄️ LOCAL VECTOR DATABASES (Optional)
+# ==========================================
+# Note: If you want Streamlit Cloud to read your DB without 
+# rebuilding it every time, DO NOT ignore these. 
+# If you prefer to rebuild the DB on the cloud server every time, 
+# uncomment the lines below to keep your GitHub repo lightweight.
+# data_chroma_db/
+# faya_chroma_db/
