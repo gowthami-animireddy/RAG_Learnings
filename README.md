@@ -283,23 +283,6 @@ This project provides hands-on experience with:
 * Ollama
 * LangChain
 
----
-
-# 🔮 Future Improvements
-
-Possible extensions include:
-
-* [ ] Add PDF/document ingestion
-* [ ] Implement text chunking
-* [ ] Add metadata filtering
-* [ ] Compare different embedding models
-* [ ] Add hybrid search using BM25 + vector search
-* [ ] Add a re-ranking stage
-* [ ] Add RAG evaluation metrics
-* [ ] Build a Streamlit interface
-* [ ] Add conversation memory
-* [ ] Support multiple documents
-* [ ] Add source citations to generated answers
 
 ---
 
@@ -308,3 +291,7 @@ Possible extensions include:
 **Chat with your Data** is designed as a simple starting point for understanding how RAG systems work internally — from **raw data → embeddings → vector storage → retrieval → LLM generation**.
 
 It serves as a foundation that can later be extended into a production-style RAG system.
+
+
+
+deployed - https://mit-ai-news-chatbot.streamlit.app/
