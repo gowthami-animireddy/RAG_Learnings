@@ -43,7 +43,7 @@ def load_llm():
         st.stop()
     
     return ChatGroq(
-        model="llama-3.3-70b-versatile",  # Fast, free, and cloud-compatible
+        model="qwen/qwen3.8-27b",  # Verified available model, excellent for RAG
         temperature=0,
         api_key=api_key
     )
